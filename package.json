@@ -1,0 +1,17 @@
+{
+  "name": "qa-senior-lacoste-tech-test-bdiop18",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test:api": "node src/api/rates_eur_usd_2025_01_01.js",
+    "test:web": "cypress run",
+    "qa": "npm run test:api && npm run test:web",
+    "cy:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^13.13.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}

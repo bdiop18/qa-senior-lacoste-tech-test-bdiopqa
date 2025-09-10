@@ -1,0 +1,6 @@
+node_modules
+artifacts/**
+!artifacts/.gitkeep
+cypress/screenshots/**
+cypress/videos/**
+.DS_Store
